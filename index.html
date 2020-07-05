@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip'Em by Eskay</title>
+	<link rel="stylesheet" type="text/css" href="tipem.css">
+	<script type="text/javascript" src="tipem.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div style="text-align: center;"><span id="welcome">Welcome to </span><br/><span id="tipem">Tip'Em By Eskay</span></div>
+	<center><div id="introDiv">
+		<p id="didyouknow">Did you know?</p>
+		<p id="fact">Your tips are literally some workers' income. They also have to “tip out” the other staff. <br/>So when you tip someone, you're also tipping the busboy, bartender, and others :-)</p>
+	</div></center>
+
+	<div id="request">
+		You can easily calculate the tip you'll give out for that service below!
+	</div>
+
+	<center><div id="tipBox">
+		<span>What is the cost of the service ($)?</span>
+		<input type="text" id="cost" placeholder="Input the cost Here"><br/><br/>
+
+		<span>How many of you were served?</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="number" placeholder="Input the number of people"><br/><br/>
+
+		<span>How would you describe their service?</span><br/>
+		<select id="service">
+			<option value="0">Select an Option Below</option>
+			<option value="0.2">Top-Notch (5 Star)</option>
+			<option value="0.15">Good (4 Star)</option>
+			<option value="0.10">Average (3 Star)</option>
+			<option value="0.05">Poor (2 Star)</option>
+			<option value="0.01">Very Poor (1 Star)</option>
+		</select>
+		<br/>
+		<button id="calculate" onclick="calculator()">CALCULATE TIP</button><br/> <br/><span id="totalTip"></span>
+	</div></center>
+
+	<div id="footer">
+		Copyright 2020 - SKA Technologies
+	</div>
+</body>
+</html>

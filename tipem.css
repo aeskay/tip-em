@@ -1,0 +1,110 @@
+body{
+	background-color: rgba(100, 100, 100, 1);
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	padding: 30px 0px 30px 0px;
+	height: 100%;
+}
+
+#b
+
+#welcome{
+	font-size: 18px
+}
+
+#tipem{
+	font-size: 45px;
+	font-family: jokerman;
+}
+
+@media (max-width: 900px){
+	#introDiv{
+		width: 100%;
+	}
+}
+@media (min-width: 901px){
+	#introDiv{
+		width: 60%;
+	}
+}
+
+#introDiv{
+	text-align: center;
+	background-color: rgba(245, 245, 245, 0.8);
+	border: 2px solid rgba(245, 0, 40, 0.8);
+	border-radius: 10px;
+	margin-top: 15px;
+
+}
+
+#didyouknow{
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+}
+
+#fact{
+	color: rgba(245, 0, 40, 0.8);
+	font-size: 21px;
+}
+
+#request{
+	margin: 15px 0px 15px 0px;
+	font-size: 25px;
+	text-align: center;
+}
+
+#tipBox{
+	text-align: left;
+	border: 1px solid white;
+	border-radius: 10px;
+	padding: 25px 0px 25px 15px;
+	font-size: 20px;
+}
+
+@media (max-width: 900px){
+	#tipBox{
+		width: 95%;
+	}
+}
+@media (min-width: 901px){
+	#tipBox{
+		width: 60%;
+	}
+}
+
+#tipBox > input {
+	width: 70%;
+	height: 30px;
+	border: 1px solid  grey;
+	border-radius: 5px;
+	font-size: 15px;
+	padding-left: 4px;
+}
+
+#tipBox > select {
+	width: 71%;
+	height: 30px;
+	border: 1px solid  grey;
+	border-radius: 5px;
+	font-size: 15px;
+	padding-left: 4px;
+}
+
+#calculate{
+	padding: 10px 40px 10px 40px;
+	background-color: rgba(245, 0, 40, 0.8);
+	color: white;
+	font-weight: bold;
+	border: 1px solid white;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+#footer {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: grey;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	margin-top: 40px;
+}
